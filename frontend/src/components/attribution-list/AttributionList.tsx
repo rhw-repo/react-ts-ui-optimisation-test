@@ -10,42 +10,19 @@ const AttributionList = (): React.JSX.Element => {
   return (
     <ul className={styles.attributionList}>
       {attributionListLinks.map(
-        ({
-          id,
-          name,
-          url,
-          thumbnailWebp,
-          thumbnailAvif,
-          thumbnailAlt,
-          videoUrl,
-          videoAlt,
-        }) => (
+        ({ id, name, url, thumbnailWebp, thumbnailAvif, thumbnailAlt }) => (
           <li key={id}>
             <AbsoluteLinkTemplate url={url}>
               <div className={styles.attributionListItem}>
-                {videoUrl ? (
-                  <div className={styles.thumbnailWrapper}>
-                    <video
-                      className={styles.thumbnailVideo}
-                      src={videoUrl}
-                      muted
-                      preload="metadata"
-                      playsInline
-                      aria-label={videoAlt}
+                {thumbnailWebp && thumbnailAvif && (
+                  <picture className={styles.thumbnailWrapper}>
+                    <source srcSet={thumbnailWebp} type="image/webp" />
+                    <img
+                      src={thumbnailAvif}
+                      alt={thumbnailAlt}
+                      className={styles.thumbnailImage}
                     />
-                  </div>
-                ) : (
-                  thumbnailWebp &&
-                  thumbnailAvif && (
-                    <picture className={styles.thumbnailWrapper}>
-                      <source srcSet={thumbnailWebp} type="image/webp" />
-                      <img
-                        src={thumbnailAvif}
-                        alt={thumbnailAlt}
-                        className={styles.thumbnailImage}
-                      />
-                    </picture>
-                  )
+                  </picture>
                 )}
                 <div className={styles.attributionListItemText}>
                   <span>{name}</span>

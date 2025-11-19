@@ -17,7 +17,9 @@ import laptopWebp from "../assets/thumbnails/harisankar-sahoo-icPjxeqjT4Y-unspla
 import laptopAvif from "../assets/thumbnails/harisankar-sahoo-icPjxeqjT4Y-unsplash.avif";
 
 // Thumbnail video imports
-import droneFootage from "/assets/mp4/7226223-hd_1920_1080_30fps.mp4";
+//import droneFootage from "/assets/mp4/7226223-hd_1920_1080_30fps.mp4";
+import droneFootageWebp from "../assets/thumbnails/thumbnail-drone-video.webp";
+import droneFootageAvif from "../assets/thumbnails/thumbnail-drone-video.avif";
 
 //Thumbnail credit images imports
 import greenCanoesWebp from "../assets/images/anthony-cantin-JRV04uSiMr4-unsplash.webp";
@@ -54,8 +56,8 @@ export interface AbsoluteLinkTemplateNoIcon {
   thumbnailWebp?: string;
   thumbnailAvif?: string;
   thumbnailAlt?: string;
-  videoUrl?: string;
-  videoAlt?: string;
+  //videoUrl?: string;
+  //videoAlt?: string;
 }
 
 export const iconLinks: AbsoluteLinkTemplateIcon[] = [
@@ -174,8 +176,9 @@ export const noIconLinks: AbsoluteLinkTemplateNoIcon[] = [
     url: "https://www.pexels.com/@rhys-abel-2233101/",
     section: "attribution-list",
     name: "Rhys Abel (Pexels)",
-    videoUrl: droneFootage,
-    videoAlt:
+    thumbnailWebp: droneFootageWebp,
+    thumbnailAvif: droneFootageAvif,
+    thumbnailAlt:
       "Drone aerial view of a Canadian pine forest and lake, by artist ",
   },
   {
