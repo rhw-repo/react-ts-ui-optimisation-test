@@ -17,8 +17,7 @@ import laptopWebp from "../assets/thumbnails/harisankar-sahoo-icPjxeqjT4Y-unspla
 import laptopAvif from "../assets/thumbnails/harisankar-sahoo-icPjxeqjT4Y-unsplash.avif";
 
 // Thumbnail video imports
-//import droneFootage from "/assets/mp4/7226223-hd_1920_1080_30fps.mp4";
-import droneFootageWebp from "../assets/thumbnails/thumbnail-drone-video.webp";
+import droneFootageWebp from "/assets/thumbnails/thumbnail-drone-video.webp";
 import droneFootageAvif from "../assets/thumbnails/thumbnail-drone-video.avif";
 
 //Thumbnail credit images imports
