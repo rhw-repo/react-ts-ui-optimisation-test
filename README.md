@@ -1,3 +1,24 @@
+# Demo of Styles Optimization Sandbox
+
+This repository hosts a deployable clone of Demo of Styles, enabling:
+
+- Tracking metrics such as Lighthouse scores
+- Testing optimization strategies outside of the local development environment 
+
+#### Technologies & Libraries: 
+* React 19 (with Typescript in development)
+* React Router v7 
+* DomPurify
+* FontAwesome SVG Icons 
+
+Self-hosted assets:
+* Variable fonts in WOFF/WOFF2 
+* WebP & AVIF images 
+* mp4 Video background
+
+More details of the Demo of Styles project are found in the original README.md below. 
+---
+
 # Demo of Styles
 
 Front End app developed from a company branded 'lookbook' type 'Demo of Styles' website, originally made for a financial sector client in 2025. 
@@ -43,18 +64,6 @@ As their business had grown since the original launch, their goals were:
 
 #### Accessibility
 * Audited using WAVE Evaluation Tool & tested with Mac Voice Over screen reader
-
-
-#### Technologies & Libraries: 
-* React 19 (with Typescript in development)
-* React Router v7 
-* DomPurify
-* FontAwesome SVG Icons 
-
-Self-hosted assets:
-* Variable fonts in WOFF/WOFF2 
-* WebP & AVIF images 
-* mp4 Video background
 
 ---
 
