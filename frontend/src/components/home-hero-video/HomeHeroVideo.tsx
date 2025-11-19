@@ -1,5 +1,3 @@
-//import droneFootage from "/assets/mp4/drone-video.mp4";
-import droneFootage from "/assets/mp4/7226223-hd_1920_1080_30fps.mp4"
 import styles from "./HomeHeroVideo.module.css";
 
 const HomeHeroVideo: React.FC = () => {
@@ -12,13 +10,18 @@ const HomeHeroVideo: React.FC = () => {
       <div className={styles.videoSectionContainer}>
         <video
           className={styles.videoSectionVideo}
-          src={droneFootage}
           autoPlay
           muted
           loop
           // iOS
           playsInline
-        />
+          poster="/assets/thumbnails/thumbnail-drone-video.webp"
+        >
+          <source
+            src="/assets/mp4/7226223-hd_1920_1080_30fps.mp4"
+            type="video/mp4"
+          />
+        </video>
         <div className={styles.videoSectionOverlay}></div>
       </div>
     </>
