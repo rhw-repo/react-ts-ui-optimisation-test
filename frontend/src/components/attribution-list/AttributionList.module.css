@@ -32,26 +32,12 @@
   object-fit: contain;
 }
 
-.thumbnailVideo,
 .thumbnailImage {
   height: 100%;
   width: 100%;
   display: block;
   object-fit: cover;
   margin: 0 auto;
-}
-
-.thumbnailImage[src*="/icons/"] {
-  width: 2rem;
-  height: auto;
-  text-align: center;
-  object-fit: contain;
-  border: none;
-}
-
-.thumbnailVideo {
-  grid-area: image;
-  border-radius: 0.25rem;
 }
 
 .attributionListItemText {

@@ -61,7 +61,7 @@ const AttributionListDialog: React.FC = () => {
 
       <dialog ref={dialogRef} className={styles.attributionDialog}>
         <div className={styles.attributionLinksWrapper}>
-          <h2>Icons, Images & Videos By</h2>
+          <h2>Icons, Images & Video By</h2>
           <div className={styles.attributionList}>
             <AttributionList />
           </div>
