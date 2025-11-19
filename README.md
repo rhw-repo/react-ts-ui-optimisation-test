@@ -16,7 +16,8 @@ Self-hosted assets:
 * WebP & AVIF images 
 * mp4 Video background
 
-More details of the Demo of Styles project are found in the original README.md below. 
+Original README.md follows below: 
+
 ---
 
 # Demo of Styles
