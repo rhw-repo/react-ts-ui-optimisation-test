@@ -17,7 +17,7 @@ import laptopWebp from "../assets/thumbnails/harisankar-sahoo-icPjxeqjT4Y-unspla
 import laptopAvif from "../assets/thumbnails/harisankar-sahoo-icPjxeqjT4Y-unsplash.avif";
 
 // Thumbnail video imports
-import droneFootage from "../assets/mp4/7226223-hd_1920_1080_30fps.mp4";
+import droneFootage from "/assets/mp4/7226223-hd_1920_1080_30fps.mp4";
 
 //Thumbnail credit images imports
 import greenCanoesWebp from "../assets/images/anthony-cantin-JRV04uSiMr4-unsplash.webp";
