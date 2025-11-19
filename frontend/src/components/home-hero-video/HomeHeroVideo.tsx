@@ -1,4 +1,5 @@
-import droneFootage from "/assets/mp4/drone-video.mp4";
+//import droneFootage from "/assets/mp4/drone-video.mp4";
+import droneFootage from "/assets/mp4/7226223-hd_1920_1080_30fps.mp4"
 import styles from "./HomeHeroVideo.module.css";
 
 const HomeHeroVideo: React.FC = () => {
