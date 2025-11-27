@@ -75,7 +75,7 @@ section {
   font-family: "cabin";
   font-size: 1rem;
   font-weight: 500;
-  color: var(--accent-headline);
+  color: var(--accent-dark);
   padding: 0 0 0.5rem 1rem;
 }
 

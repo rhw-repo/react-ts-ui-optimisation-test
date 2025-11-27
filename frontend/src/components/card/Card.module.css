@@ -64,7 +64,7 @@
   width: auto;
   white-space: nowrap;
   background-color: var(--surface-solid);
-  color: var(--accent-headline);
+  color: var(--accent-dark);
   box-shadow: var(--elevation-box-shadow-05);
   border: none;
   border-radius: 0.5rem;
@@ -85,7 +85,7 @@
   border: none;
   border-radius: 0.5rem;
   background-color: var(--surface-solid);
-  color: var(--accent-headline);
+  color: var(--accent-dark);
   margin-top: 0.25rem;
   font-family: "cabin";
   font-size: 0.875rem;
