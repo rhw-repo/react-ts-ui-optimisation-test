@@ -29,6 +29,7 @@ dist-ssr
 # If using dotenv
 .env
 .env.*
+.env.local
 
 # Misc. editors
 **/*.backup.*
