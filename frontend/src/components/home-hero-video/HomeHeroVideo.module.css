@@ -18,6 +18,11 @@
   object-fit: cover;
 }
 
+.videoSectionContainer mux-player {
+  --controls: none;
+  --captions-button: none;
+}
+
 .videoSectionOverlay::before {
   content: "HEADLINE";
   box-sizing: border-box;
