@@ -21,6 +21,7 @@ const AttributionList = (): React.JSX.Element => {
                       src={thumbnailAvif}
                       alt={thumbnailAlt}
                       className={styles.thumbnailImage}
+                      loading="lazy"
                     />
                   </picture>
                 )}
