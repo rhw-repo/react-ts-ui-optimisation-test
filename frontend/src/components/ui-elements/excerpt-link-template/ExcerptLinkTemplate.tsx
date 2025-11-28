@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import type { HomeLink } from "../../../data/homeLinks";
-import "../../../styles/global.css";
+import "../../../styles/styles.css";
 import styles from "./ExerptLinkTemplate.module.css";
 
 type Props = {
