@@ -21,6 +21,14 @@ import droneFootageWebp from "/assets/thumbnails/thumbnail-drone-video.webp";
 import droneFootageAvif from "../assets/thumbnails/thumbnail-drone-video.avif";
 
 //Thumbnail credit images imports
+import benefitsWebp from "../assets/icons/benefits.webp";
+import benefitsAvif from "../assets/icons/benefits.avif";
+import graphWebp from "../assets/icons/graph.webp";
+import graphAvif from "../assets/icons/graph.avif";
+import locationWebp from "../assets/icons/location.webp";
+import locationAvif from "../assets/icons/location.avif";
+import insuranceWebp from "../assets/icons/insurance.webp";
+import insuranceAvif from "../assets/icons/insurance.avif";
 import greenCanoesWebp from "../assets/images/anthony-cantin-JRV04uSiMr4-unsplash.webp";
 import greenCanoesAvif from "../assets/images/anthony-cantin-JRV04uSiMr4-unsplash.avif";
 import airportWebp from "../assets/images/jeshoots-com-mSESwdMZr-A-unsplash.webp";
@@ -55,8 +63,6 @@ export interface AbsoluteLinkTemplateNoIcon {
   thumbnailWebp?: string;
   thumbnailAvif?: string;
   thumbnailAlt?: string;
-  //videoUrl?: string;
-  //videoAlt?: string;
 }
 
 export const iconLinks: AbsoluteLinkTemplateIcon[] = [
@@ -129,8 +135,8 @@ export const noIconLinks: AbsoluteLinkTemplateNoIcon[] = [
     url: "https://www.flaticon.com/authors/freepik",
     section: "attribution-list",
     name: "Freepik (Flaticon)",
-    thumbnailWebp: "/icons/benefits.webp",
-    thumbnailAvif: "/icons/benefits.avif",
+    thumbnailWebp: benefitsWebp,
+    thumbnailAvif: benefitsAvif,
     thumbnailAlt: "Business icon used in the homepage by artist",
   },
   {
@@ -138,8 +144,8 @@ export const noIconLinks: AbsoluteLinkTemplateNoIcon[] = [
     url: "https://www.flaticon.com/authors/meaicon",
     section: "attribution-list",
     name: "meaicon (Flaticon)",
-    thumbnailWebp: "/icons/graph.webp",
-    thumbnailAvif: "/icons/graph.avif",
+    thumbnailWebp: graphWebp,
+    thumbnailAvif: graphAvif,
     thumbnailAlt: "Chart Icon used in the homepage by artist",
   },
   {
@@ -147,8 +153,8 @@ export const noIconLinks: AbsoluteLinkTemplateNoIcon[] = [
     url: "https://www.flaticon.com/authors/freepik",
     section: "attribution-list",
     name: "Freepik (Flaticon)",
-    thumbnailWebp: "/icons/location.webp",
-    thumbnailAvif: "/icons/location.avif",
+    thumbnailWebp: locationWebp,
+    thumbnailAvif: locationAvif,
     thumbnailAlt: "Map Icon used in the homepage by artist",
   },
   {
@@ -156,8 +162,8 @@ export const noIconLinks: AbsoluteLinkTemplateNoIcon[] = [
     url: "https://www.flaticon.com/authors/freepik",
     section: "attribution-list",
     name: "Freepik (Flaticon)",
-    thumbnailWebp: "/icons/insurance.webp",
-    thumbnailAvif: "/icons/insurance.avif",
+    thumbnailWebp: insuranceWebp,
+    thumbnailAvif: insuranceAvif,
     thumbnailAlt: "Check Icon used in the homepage by artist",
   },
   {
