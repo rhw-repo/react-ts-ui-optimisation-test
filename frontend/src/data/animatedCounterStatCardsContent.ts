@@ -8,6 +8,15 @@ export interface AnimatedCounterStatCard {
   imageAvif: string;
 }
 
+import benefitsWebp from "../assets/icons/benefits.webp";
+import benefitsAvif from "../assets/icons/benefits.avif";
+import graphWebp from "../assets/icons/graph.webp";
+import graphAvif from "../assets/icons/graph.avif";
+import locationWebp from "../assets/icons/location.webp";
+import locationAvif from "../assets/icons/location.avif";
+import insuranceWebp from "../assets/icons/insurance.webp";
+import insuranceAvif from "../assets/icons/insurance.avif";
+
 export const animatedCounterStatsCardContent: AnimatedCounterStatCard[] = [
   {
     id: "001",
@@ -15,8 +24,8 @@ export const animatedCounterStatsCardContent: AnimatedCounterStatCard[] = [
     number: "25.5",
     text: "Decimal Numbers",
     subtext: "Subtext",
-    imageWebp: "/icons/benefits.webp",
-    imageAvif: "/icons/benefits.avif",
+    imageWebp: benefitsWebp,
+    imageAvif: benefitsAvif,
   },
   {
     number: "17",
@@ -24,8 +33,8 @@ export const animatedCounterStatsCardContent: AnimatedCounterStatCard[] = [
     id: "002",
     text: "Whole Numbers",
     subtext: "Subtext",
-    imageWebp: "/icons/graph.webp",
-    imageAvif: "/icons/graph.avif",
+    imageWebp: graphWebp,
+    imageAvif: graphAvif,
   },
   {
     number: "20,500",
@@ -33,8 +42,8 @@ export const animatedCounterStatsCardContent: AnimatedCounterStatCard[] = [
     id: "003",
     text: "With Commas",
     subtext: "Subtext",
-    imageWebp: "/icons/location.webp",
-    imageAvif: "/icons/location.avif",
+    imageWebp: locationWebp,
+    imageAvif: locationAvif,
   },
   {
     number: "100",
@@ -42,7 +51,7 @@ export const animatedCounterStatsCardContent: AnimatedCounterStatCard[] = [
     id: "004",
     text: "All timings flexible",
     subtext: "Subtext",
-    imageWebp: "/icons/insurance.webp",
-    imageAvif: "/icons/insurance.avif",
+    imageWebp: insuranceWebp,
+    imageAvif: insuranceAvif,
   },
 ];
