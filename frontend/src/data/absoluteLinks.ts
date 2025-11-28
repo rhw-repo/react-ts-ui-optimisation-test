@@ -21,14 +21,14 @@ import droneFootageWebp from "/assets/thumbnails/thumbnail-drone-video.webp";
 import droneFootageAvif from "../assets/thumbnails/thumbnail-drone-video.avif";
 
 //Thumbnail credit images imports
-import benefitsWebp from "../assets/icons/benefits.webp";
-import benefitsAvif from "../assets/icons/benefits.avif";
-import graphWebp from "../assets/icons/graph.webp";
-import graphAvif from "../assets/icons/graph.avif";
-import locationWebp from "../assets/icons/location.webp";
-import locationAvif from "../assets/icons/location.avif";
-import insuranceWebp from "../assets/icons/insurance.webp";
-import insuranceAvif from "../assets/icons/insurance.avif";
+import benefitsWebp from "../assets/icons/benefits_61_61.webp";
+import benefitsAvif from "../assets/icons/benefits_61_61.avif";
+import graphWebp from "../assets/icons/graph_61_61.webp";
+import graphAvif from "../assets/icons/graph_61_61.avif";
+import locationWebp from "../assets/icons/location_61_61.webp";
+import locationAvif from "../assets/icons/location_61_61.avif";
+import insuranceWebp from "../assets/icons/insurance_61_61.webp";
+import insuranceAvif from "../assets/icons/insurance_61_61.avif";
 import greenCanoesWebp from "../assets/images/anthony-cantin-JRV04uSiMr4-unsplash.webp";
 import greenCanoesAvif from "../assets/images/anthony-cantin-JRV04uSiMr4-unsplash.avif";
 import airportWebp from "../assets/images/jeshoots-com-mSESwdMZr-A-unsplash.webp";

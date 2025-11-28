@@ -8,14 +8,14 @@ export interface AnimatedCounterStatCard {
   imageAvif: string;
 }
 
-import benefitsWebp from "../assets/icons/benefits.webp";
-import benefitsAvif from "../assets/icons/benefits.avif";
-import graphWebp from "../assets/icons/graph.webp";
-import graphAvif from "../assets/icons/graph.avif";
-import locationWebp from "../assets/icons/location.webp";
-import locationAvif from "../assets/icons/location.avif";
-import insuranceWebp from "../assets/icons/insurance.webp";
-import insuranceAvif from "../assets/icons/insurance.avif";
+import benefitsWebp from "../assets/icons/benefits_61_61.webp";
+import benefitsAvif from "../assets/icons/benefits_61_61.avif";
+import graphWebp from "../assets/icons/graph_61_61.webp";
+import graphAvif from "../assets/icons/graph_61_61.avif";
+import locationWebp from "../assets/icons/location_61_61.webp";
+import locationAvif from "../assets/icons/location_61_61.avif";
+import insuranceWebp from "../assets/icons/insurance_61_61.webp";
+import insuranceAvif from "../assets/icons/insurance_61_61.avif";
 
 export const animatedCounterStatsCardContent: AnimatedCounterStatCard[] = [
   {
