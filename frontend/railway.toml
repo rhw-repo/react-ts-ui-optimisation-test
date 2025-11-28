@@ -1,3 +1,6 @@
+[deploy]
+publicDir = "build/client"
+
 [static]
-directory = "build/assets"
+directory = "build/client/assets"
 headers = { "Cache-Control" = "public, max-age=31536000, immutable" }
