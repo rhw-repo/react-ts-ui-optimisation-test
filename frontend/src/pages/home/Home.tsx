@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import "../../styles/global.css";
+import "../../styles/styles.css";
 import styles from "./Home.module.css";
 import HomeHero from "../../components/home-hero/HomeHero";
 import ExcerptLinkTemplate from "../../components/ui-elements/excerpt-link-template/ExcerptLinkTemplate";
